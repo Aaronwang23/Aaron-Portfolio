@@ -2,7 +2,7 @@
   <body>
     <div class="page">
       <div class="header">
-        <h1>Aaron Wang's Portfolio</h1>
+        <h1>AARON WANG PORTFOLIO</h1>
         <div class="line"></div>
       </div>
       <div class="app">
@@ -51,24 +51,23 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .app {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 60em;
 }
-
 .page {
   background-image: url("~@/assets/background.svg");
   background-size: cover;
-  /* background-repeat: no-repeat; */
   width: 100%;
   height: 100%;
   margin: 0;
 }
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 .header {
   text-align: center;
@@ -80,14 +79,15 @@ h1 {
   color: #ffffff;
 }
 
-.line {
-  width: 70%;
-  height: 0.15em;
-  background: linear-gradient(to right, transparent, #ffffff, transparent);
-  margin: 0.15em auto;
+p {
+  font-size: 1.25em;
+  line-height: 2em;
 }
 
-div {
-  font-family: "Roboto", sans-serif;
+.line {
+  width: 70%;
+  height: 0.05em;
+  background: linear-gradient(to right, transparent, #ffffff, transparent);
+  margin: 0.15em auto;
 }
 </style>

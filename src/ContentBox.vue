@@ -54,19 +54,19 @@ export default {
   box-shadow: none;
   border: 12px solid transparent;
   border-radius: 4px;
-  margin-bottom: 20em;
+  margin-bottom: 15em;
 }
 
 .expanded {
   width: 40%;
-  height: 40%;
+  height: 70%;
 }
 
 .content {
-  max-height: 83%;
+  max-height: 90%;
   overflow: hidden;
   word-wrap: break-word;
-  color: #283a26;
+  color: #29123d;
 }
 
 .box:hover {

@@ -79,7 +79,7 @@ ul.menu-items {
   margin: 0;
   text-align: right;
   position: absolute;
-  font-size: 1.6em;
+  font-size: 1.5em;
   top: 60px;
   left: 0;
   height: 100vw;
