@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       isMenuVisible: false,
-      menuItems: ["Home", "About", "Other", "Contact"],
+      menuItems: ["Home", "About", "Projects", "Contact"],
     };
   },
   methods: {

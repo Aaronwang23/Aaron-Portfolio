@@ -27,7 +27,7 @@ import MenuBar from "./MenuBar.vue";
 import AboutContent from "./components/AboutContent.vue";
 import ContactContent from "./components/ContactContent.vue";
 import HomeContent from "./components/HomeContent.vue";
-import OtherContent from "./components/OtherContent.vue";
+import ProjectsContent from "./components/ProjectsContent.vue";
 
 export default {
   components: {
@@ -36,7 +36,7 @@ export default {
     AboutContent,
     ContactContent,
     HomeContent,
-    OtherContent,
+    ProjectsContent,
   },
   data() {
     return {
